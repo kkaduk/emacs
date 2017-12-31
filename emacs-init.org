@@ -447,7 +447,7 @@
         (elpy-enable)
         :config
         ;; Use pyenv
-        (setq pyenv-path "~/pyenv")
+        (setq pyenv-path "~/tensorflow")
         (when (file-exists-p pyenv-path)
           (pyvenv-activate pyenv-path))
     
